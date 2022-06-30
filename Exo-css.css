@@ -1,0 +1,24 @@
+p
+{
+/*color: blue;*/
+font-size: x-large;
+font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+/* commentaire css */
+
+/* class = . id = # */
+
+/*   {} est un selecteur universel */
+
+*{ background-color: gray;}
+
+/*
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('MaSuperPolice.eot') format('eot'),
+         url('MaSuperPolice.woff') format('woff'),
+         url('MaSuperPolice.ttf') format('truetype'),
+         url('MaSuperPolice.svg') format('svg');
+}
+*/
