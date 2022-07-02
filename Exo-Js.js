@@ -214,3 +214,15 @@ if (number > 0) {
 }
 else {
 console.log("Please enter a number at least greater than 0");}
+
+// LES BOUCLES
+
+// exo 1
+
+let i = 0;
+
+while (i <= 9) {
+    console.log("One run of the loop");
+    i ++;
+  }
+//   10 itérations appraisent 
