@@ -1,0 +1,201 @@
+// TABLEAU 
+let items = new Array();
+console.log(items);
+
+items = [];
+console.log(items);
+
+// items = ();
+// console.log(items);
+// renvoit une erreur
+
+items =  ["a", "b"];
+console.log(items);
+
+items = ["premier élément", "deuxième élément", "troisième élément", "quatrième élément"];
+console.log(items);
+console.log(items[1]);
+console.log(items[3]);
+console.log(items[0]);
+
+// exo 3
+
+let player = [
+     "Jhon",
+     "Doe",
+     34,
+     true
+];
+console.log(player);
+console.log(player[0]);
+console.log(player[1]);
+console.log(player[0] + " " + player[1]);
+
+player[2] = 40;
+console.log(player[2]);
+
+console.log(player[3]);
+
+// non
+
+// exo 4 tableau associatif
+
+player = {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "age" : 34,
+    "isAdult" : true
+};
+
+console.log(player);
+console.log(player["firstName"]);
+console.log(player["lastName"]);
+console.log(player["firstName"] + " " + player["lastName"]);
+player["age"] = 40;
+console.log(player["age"]);
+
+console.log(player["isAdult"]);
+
+// exo 5 tableau associatif
+
+let car ={
+    "type" : "Clio", 
+    "brand" : "Renault",
+    "date" : 2006,
+    "color" : "orange",
+    "passengers" : ["Mike", "Claire", "Anna", "Louis"]
+};
+
+console.log(car);
+
+car["color"] = "noir";
+
+console.log("Une" + " " + car["brand"] + " " + car["type"] + " " + "de couleur" + " " + car["color"] + " " + ", modèle" + " " + car["date"] + " " +  "a été aperçue avec" + " " + car["passengers"].length + " " + "passagers à son bord ");
+
+console.log(car["passengers"][0]);
+
+console.log(
+    car["passengers"].length +
+    " " + 
+    "individus ont été aperçus à son bord :" + 
+    " " +
+    car["passengers"][3] +
+    "," +
+    car["passengers"][1] +
+     "," +
+    car["passengers"][0] +
+    "," +
+     car["passengers"][2]);
+
+    //  exo 6 
+
+    let a = 14;
+    let b = 38;
+
+    let product = [];
+
+    console.log(a);
+    console.log(b);
+    console.log(product);
+
+    product[0] = a;
+    product[1] = b;
+    product[7] = 50;
+
+    console.log(product);
+
+// CONDITIONS 
+
+// exo 2 
+
+let content;
+
+content = true;
+content = true;
+content = "text";
+content = 123;
+
+if (content) {
+    console.log("Condition is OK");
+  }
+  else {
+    console.log("Condition is KO");
+  }
+
+// exo3
+
+let price = 45;
+
+if (price === 45) {
+    console.log("The price is a number");
+  }
+  else if (price == 45) {
+    console.log("The price is a string");
+  }
+  else {
+    console.log("The price is something else");
+  }
+
+//   exo 4 
+
+let minimumAge = 18;
+let userAge = 25;
+
+if (userAge >= minimumAge) {
+    console.log("Bienvenu!");
+} else {
+    console.log("Vous n'avez pas l'age");
+}
+
+// exo5 
+
+let store = ["Walmart", "Colorado", "South-Park", 483];
+
+if (store[0] = "Walmart" && store[1] === "South-Park") {
+  console.log("The Walmart in South-Park has " + store[3] + " employes") ;
+}
+else if (store[0] = "Walmart" && store[2] === "Colorado") {
+  console.log("Hum this is an other Walmart from Colorado");
+}
+else if (store[1] = "Walmar") {
+  console.log("Too bad this is just a Walmart");
+}
+else {
+  console.log("I do not know what this is");
+}
+  
+// exo 6
+
+let student = {
+    "name" : "John Doe",
+    "grade" : 14
+}
+
+if (student["grade"] < 10) {
+    console.log("Recalé");
+} else if (student["grade"] < 12 ) {
+    console.log("Passable");
+} else if (student["grade"] < 14 ) {
+    console.log("Moyen");
+} else if (student["grade"] < 16 ) {
+    console.log("Bien");
+} else{
+    console.log("Très bien");
+}
+
+// exo 7
+
+let meal = {
+    "foodType" : "meat",
+    "cookedAt" : 80,
+    "temperature" : 60,
+    "status" : ["Cooked", "UnCooked", "OverCooked"]
+}
+
+if (meal["temperature"] === meal["cookedAt"]) {
+    console.log(meal["status"][0]);
+} else if (meal["temperature"] < meal["cookedAt"]){
+    console.log(meal["status"][1]);
+} else {
+    console.log(meal["status"][2]);
+}
