@@ -199,3 +199,18 @@ if (meal["temperature"] === meal["cookedAt"]) {
 } else {
     console.log(meal["status"][2]);
 }
+
+// exo 8
+
+let number = 42;
+
+if (number > 0) {
+  if(number % 2 === 0) {
+    console.log("number is even");
+  }
+  else {
+    console.log("number is odd");
+} 
+}
+else {
+console.log("Please enter a number at least greater than 0");}
