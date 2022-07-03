@@ -283,3 +283,9 @@ customers = [
   for (i=0; i < 6; i++) {
     console.log(customers[i]);
 }
+
+// exo 7
+
+for (const item of items) {
+    console.log(item);
+}
