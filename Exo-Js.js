@@ -262,3 +262,24 @@ items = [
     "thirdtItem",
     "fourthtItem",
 ] 
+
+for (i=0; i < 4; i++) {
+    console.log(items[i]);
+  }
+
+// exo 6 
+
+customers = [
+    "Albin Term",
+    "Anna Sandgrove",
+    "John Doe",
+    "Terrance Head",
+    "Yan Mock",
+    "Zoe Durst"
+  ];
+
+  console.log("List of all  customers :");
+
+  for (i=0; i < 6; i++) {
+    console.log(customers[i]);
+}
