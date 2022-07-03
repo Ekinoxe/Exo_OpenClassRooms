@@ -320,3 +320,31 @@ for (let identity in citizen) {
         console.log(identity + " : " + citizen[identity]);
     }
 }
+
+// exo 9
+
+let citizens = [
+    {
+      "firstname" : "John",
+      "lastname" : "Doe"
+    },
+    {
+      "firstname" : "Anna",
+      "lastname" : "Molner"
+    },
+    {
+      "firstname" : "Harry",
+      "lastname" : "Trueman"
+    },
+    {
+      "firstname" : "Cecile",
+      "lastname" : "Mercier"
+    }
+  ];
+
+for (let citizen of citizens) {
+    for (let key in citizen) {
+console.log(key + " : " + citizen[key]);
+    }
+    console.log("\n");
+}
