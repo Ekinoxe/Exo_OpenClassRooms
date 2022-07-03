@@ -238,3 +238,18 @@ for (i=0; i <=9 ; i++) {
 for(i=0; i <= 100; i++){
     console.log(i);
 }
+
+for(i=0; i %2 <= 100; i+=2){
+    console.log(i);
+}
+
+// exo 4
+
+for ( i = 0; i < 100; i++) {
+    if (i % 2 === 0) {
+        console.log(i +" " + "is even")
+    } else {
+        console.log(i +" " + "is odd")
+    }
+    
+}
