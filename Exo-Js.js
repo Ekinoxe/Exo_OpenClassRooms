@@ -226,3 +226,5 @@ while (i <= 9) {
     i ++;
   }
 //   10 itérations appraisent 
+
+// exo 2
