@@ -286,6 +286,37 @@ customers = [
 
 // exo 7
 
+items = [
+    "firstItem",
+    "secondtItem",
+    "thirdtItem",
+    "fourthtItem",
+] 
+
 for (const item of items) {
     console.log(item);
+}
+
+// exo 8
+
+let citizen = {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "age" : 45,
+    "income" : 60000,
+    "sexe" : 0
+};
+
+console.log("Citizen identity :");
+
+for (let identity in citizen) {
+    if (identity === "sexe") {
+           if (citizen.sexe === 1) {
+        console.log(citizen.sexe = "femme" );
+    } else {
+        console.log(citizen.sexe = "Homme" );
+    }
+    } else {
+        console.log(identity + " : " + citizen[identity]);
+    }
 }
