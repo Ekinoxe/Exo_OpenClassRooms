@@ -228,3 +228,13 @@ while (i <= 9) {
 //   10 itérations appraisent 
 
 // exo 2
+
+for (i=0; i <=9 ; i++) {
+    console.log("One run of the loop");
+  };
+
+// exo 3
+
+for(i=0; i <= 100; i++){
+    console.log(i);
+}
