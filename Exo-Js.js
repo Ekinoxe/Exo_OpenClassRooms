@@ -253,3 +253,12 @@ for ( i = 0; i < 100; i++) {
     }
     
 }
+
+// exo 5
+
+items = [
+    "firstItem",
+    "secondtItem",
+    "thirdtItem",
+    "fourthtItem",
+] 
