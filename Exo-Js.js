@@ -433,9 +433,34 @@ console.log(identityCard(user));
 
 // Exo 1
 
-Math.random();
+Math.random(); // permet de randomiser un resultat flottant entre l'interval [0,1[ est étant exclu
 
 console.log(Math.random());
 
 let random = Math.random(8);
 console.log(random);
+
+// exo 2
+
+number = 12.8;
+
+console.log(number); // un flottant est affiché
+
+number = Math.round(number);
+console.log(number);
+
+number = 12.3
+number = Math.round(number);
+console.log(number);
+
+number = 12.3
+number = Math.round(number);
+console.log(number);
+
+number = 12.42359
+number = Math.round(number);
+console.log(number);
+
+// en définitif Math.random arrondi à l'entier le plus proche 
+
+
