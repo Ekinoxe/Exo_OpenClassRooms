@@ -411,7 +411,7 @@ function birthYear(age){
 
 //    exo 6
 
-const users = {
+const user = {
     "firstName" : "John",
     "lastName" : "Doe",
     "age" : 42,
@@ -419,12 +419,23 @@ const users = {
 
 }
 
-function identityCard (users){
+function identityCard (user){
     identityCard = "";
-    for (const key in users) {
-        identityCard += key + "" + users[key];
+    for (var key in user) {
+      identityCard += key  + " : " + user[key] + "\n";
     }
     return identityCard;
 }
 
-console.log(identityCard(users));
+console.log(identityCard(user));
+
+// FUNCTION NATIVE
+
+// Exo 1
+
+Math.random();
+
+console.log(Math.random());
+
+let random = Math.random(8);
+console.log(random);
