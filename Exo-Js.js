@@ -348,3 +348,11 @@ console.log(key + " : " + citizen[key]);
     }
     console.log("\n");
 }
+
+// FUNCTION 
+
+// exo 1
+
+function product() {
+   return "I am the product function";
+}
