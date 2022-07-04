@@ -484,5 +484,5 @@ let maxLength = 20;
 if (text.length > maxLength) {
     console.log("Votre texte est trop long");
 } else {
-    console.log(text);
+    console.log(text); // affiche salut
 }
