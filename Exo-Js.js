@@ -476,3 +476,13 @@ console.log(typeof(age)); // renvoit string
 age = Number(age); // converti un strin en Nombre
 console.log(typeof(age));
 
+// exo 4
+
+let text = "Salut";
+let maxLength = 20;
+
+if (text.length > maxLength) {
+    console.log("Votre texte est trop long");
+} else {
+    console.log(text);
+}
