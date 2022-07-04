@@ -394,3 +394,17 @@ function isAdult(age){
     let autorised = isAdult(18);
     
     console.log(autorised);
+
+// exo 5
+
+function birthYear(age){
+    if (age) {
+       return "Votre année de naissance est : " + new Date().getFullYear() - age;
+    } else {
+       return "No age given";
+    }
+   }
+   
+   let userBirthYear = birthYear(35);
+   
+   console.log(userBirthYear);
