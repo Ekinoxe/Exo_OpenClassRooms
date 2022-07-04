@@ -367,3 +367,14 @@ function showDigits() {
       console.log(i);
     }
   }
+
+//   exo 3
+
+function welcome(firstName, lastName){
+    let result = "Welcome to our site : " + firstName + " " + lastName;
+    return result;
+}
+
+let message = welcome("John", "Doe");
+
+console.log(message);
