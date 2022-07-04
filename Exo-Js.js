@@ -378,3 +378,19 @@ function welcome(firstName, lastName){
 let message = welcome("John", "Doe");
 
 console.log(message);
+
+// exo 4
+
+function isAdult(age){
+    if (age >= 18){
+        return "Adult";
+    } else if (age < 18 ){
+      return "Mineur";
+    }else{
+        return "Pas d'âge enregistrer";
+    }
+}
+    
+    let autorised = isAdult(18);
+    
+    console.log(autorised);
