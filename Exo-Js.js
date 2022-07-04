@@ -399,12 +399,32 @@ function isAdult(age){
 
 function birthYear(age){
     if (age) {
-       return "Votre année de naissance est : " + new Date().getFullYear() - age;
+       return new Date().getFullYear() - age;
     } else {
        return "No age given";
     }
    }
    
-   let userBirthYear = birthYear(35);
+   let userBirthYear = "Votre année de naissance est : " + birthYear(35);
    
    console.log(userBirthYear);
+
+//    exo 6
+
+const users = {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "age" : 42,
+    "job" : "dev"
+
+}
+
+function identityCard (users){
+    identityCard = "";
+    for (const key in users) {
+        identityCard += key + "" + users[key];
+    }
+    return identityCard;
+}
+
+console.log(identityCard(users));
