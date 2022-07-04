@@ -353,6 +353,17 @@ console.log(key + " : " + citizen[key]);
 
 // exo 1
 
-function product() {
-   return "I am the product function";
-}
+function product(a,b) {
+    return a*b;
+ }
+ 
+ let result = "The result of the function is : " + product(4,30);
+console.log(result);
+
+// exo 2
+
+function showDigits() {
+    for (var i=0; i <=9 ; i++) {
+      console.log(i);
+    }
+  }
