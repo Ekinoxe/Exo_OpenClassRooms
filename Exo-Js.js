@@ -447,20 +447,32 @@ number = 12.8;
 console.log(number); // un flottant est affiché
 
 number = Math.round(number);
-console.log(number);
+console.log(number); //result 13
 
 number = 12.3
 number = Math.round(number);
-console.log(number);
+console.log(number); // result 12
 
-number = 12.3
+number = 12.5
 number = Math.round(number);
-console.log(number);
+console.log(number); //result 13
 
 number = 12.42359
 number = Math.round(number);
-console.log(number);
+console.log(number); //result 12
 
 // en définitif Math.random arrondi à l'entier le plus proche 
 
+number = 12.42359
+number = Math.round(number * 100) / 100;
+console.log(number); //result 12.42
+
+// exo 3 
+
+age = "35";
+
+console.log(typeof(age)); // renvoit string
+
+age = Number(age); // converti un strin en Nombre
+console.log(typeof(age));
 
