@@ -486,3 +486,15 @@ if (text.length > maxLength) {
 } else {
     console.log(text); // affiche salut
 }
+
+
+// exo 5
+
+text = "A nice boat";
+console.log(typeof(text)); // renvois comme type de donnée un string - chaine de caractere
+
+let letterArray = text.split(''); // renvois un tableau de chaque lettre
+console.log(letterArray);
+
+let wordArray = text.split(' '); // l'esapcement dans les parametres de la fontcion split nous permet d'avoir les mots et non les lettres
+console.log(wordArray);
