@@ -496,5 +496,18 @@ console.log(typeof(text)); // renvois comme type de donnée un string - chaine d
 let letterArray = text.split(''); // renvois un tableau de chaque lettre
 console.log(letterArray);
 
-let wordArray = text.split(' '); // l'esapcement dans les parametres de la fontcion split nous permet d'avoir les mots et non les lettres
+let wordArray = text.split(' '); // l'espacement (1) dans les parametres de la fontcion split nous permet d'avoir les mots et non les lettres
 console.log(wordArray);
+
+
+// exo 6
+
+let userName = "Paul Dumas";
+let expectedName = "paul dumas";
+
+if (userName.toLowerCase() === expectedName) { // toLowerCase permet de mettre une chaîne de caratere en minuscule.
+  console.log("OK Paul you can come in");
+}
+else {
+  console.log("We do not know you");
+}
