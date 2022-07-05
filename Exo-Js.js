@@ -545,3 +545,17 @@ if (transactions.includes(researched)) {
 } else {
     console.log("No match");
 }
+
+// exo 9
+
+
+student = [
+    "John, Doe",
+    "Jane Doe",
+    "Marc Alm",
+    "Jimmy Turner"
+]
+
+student.sort();
+
+console.log(student);
