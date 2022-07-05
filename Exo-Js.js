@@ -511,3 +511,24 @@ if (userName.toLowerCase() === expectedName) { // toLowerCase permet de mettre u
 else {
   console.log("We do not know you");
 }
+
+// exo 7
+
+let newStudent = "Ryan Oper";
+
+student = [
+    "John, Doe",
+    "Jane Doe",
+    "Marc Alm",
+    "Jimmy Turner"
+]
+
+console.log(typeof(newStudent));
+console.log(typeof(student));
+
+student.push(newStudent);
+
+console.log(student);
+
+student.push(["Franck Martin", "Tom Hawkins"]);
+console.log(student);
