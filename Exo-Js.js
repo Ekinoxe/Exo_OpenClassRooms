@@ -530,5 +530,18 @@ student.push(newStudent);
 
 console.log(student);
 
-student.push(["Franck Martin", "Tom Hawkins"]);
+student.push("Franck Martin", "Tom Hawkins");
 console.log(student);
+
+// exo 8
+
+const transactions = [102, 50, 4563, 42, 78, 146, 10563];
+let researched = 42;
+
+console.log(transactions.includes(researched)); // resultat true car la  valeur se trouve dans le tableau autrement la valeur serait à false
+
+if (transactions.includes(researched)) {
+    console.log("We found a matching transaction");
+} else {
+    console.log("No match");
+}
